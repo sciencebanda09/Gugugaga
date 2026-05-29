@@ -29,7 +29,7 @@
 
 ---
 
-## 🧠 What It Does
+## What It Does
 
 Baby Voice Decoder listens to your baby's cry and classifies **why** they're crying and estimates their **age group** — all in real time, from raw audio.
 
@@ -41,16 +41,16 @@ Baby Voice Decoder listens to your baby's cry and classifies **why** they're cry
 
 | Label | Meaning |
 |---|---|
-| 🍼 `hunger` | Rhythmic, building cry; sucking pauses |
-| 😢 `pain` | Sudden high-pitched shriek with long pause |
-| 😣 `discomfort` | Continuous whiny cry — wet diaper, clothing, temperature |
-| 😴 `tiredness` | Whiny alternating cry, rubbing eyes |
-| 😨 `fear` | Sudden sharp cry from noise or startling |
-| 🤗 `needs_attention` | Short bursts; stops when picked up |
-| 🌀 `overstimulation` | Escalating cry after prolonged stimulation |
-| 😖 `gas_colic` | Sharp intense episodes; legs pulling up |
-| 😐 `boredom` | Low-grade fussing; stops with new stimulation |
-| 😊 `happy_babbling` | Non-distress: cooing, laughter, social sounds |
+|  `hunger` | Rhythmic, building cry; sucking pauses |
+|  `pain` | Sudden high-pitched shriek with long pause |
+|  `discomfort` | Continuous whiny cry — wet diaper, clothing, temperature |
+|  `tiredness` | Whiny alternating cry, rubbing eyes |
+|  `fear` | Sudden sharp cry from noise or startling |
+|  `needs_attention` | Short bursts; stops when picked up |
+|  `overstimulation` | Escalating cry after prolonged stimulation |
+|  `gas_colic` | Sharp intense episodes; legs pulling up |
+|  `boredom` | Low-grade fussing; stops with new stimulation |
+|  `happy_babbling` | Non-distress: cooing, laughter, social sounds |
 
 ### Age Group — 6 Classes
 `newborn_0_1m` · `infant_1_3m` · `infant_3_6m` · `infant_6_12m` · `toddler_12_24m` · `toddler_24_36m`
@@ -82,7 +82,7 @@ Input audio (any length)
 
 ---
 
-## 🚀 Quick Start (Google Colab)
+## Quick Start (Google Colab)
 
 ```python
 # 1. Install dependencies
@@ -102,7 +102,7 @@ Input audio (any length)
 
 ---
 
-## 🎯 Inference
+## Inference
 
 ```python
 from src.inference import BabyVoiceDecoder
@@ -136,7 +136,7 @@ decoder.print_result(result)
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 baby_voice_decoder/
@@ -155,7 +155,7 @@ baby_voice_decoder/
 
 ---
 
-## 📦 Dataset
+## Dataset
 
 [Kaggle: Decoding Cries Baby](https://www.kaggle.com/datasets/mennaahmed23/decoding-cries-baby)
 
